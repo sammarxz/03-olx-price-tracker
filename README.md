@@ -21,3 +21,11 @@ You will need the [geckodriver](https://github.com/mozilla/geckodriver/releases)
 $ wget https://github.com/mozilla/geckodriver/releases/download/v0.26.0/geckodriver-v0.26.0-linux32.tar.gz
 $ tar -xvzf geckodriver*
 $ sudo mv geckodriver /usr/local/bin/
+```
+
+---
+
+#### TODO:
+* [ ] - Make the script interactive, asking the user what they would like to search for, which category and region
+* [ ] - Add the tracker functionality really, because so far the script just scraps.
+* [ ] - The tracker will run everyday in end of day and if the price expected by the user is equal to an product of the list, send an email to user.
